@@ -13,7 +13,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id="table_creation,
+    table_creation,
     default_args=default_args,
     description='A simple DAG to create and load a BigQuery table',
     schedule_interval=None,
